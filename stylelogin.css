@@ -1,0 +1,132 @@
+/* /* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700'); */
+
+ @font-face {
+    font-family: 'yekan';
+    src: url('fonts/Yekan.woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'nazanin';
+    src: url('fonts/Nazanin.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'koodak';
+    src: url('fonts/KoodakBold.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'yekan';
+}
+
+.main-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/article/back1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    width: 400px;
+    height: 480px;
+    position: relative;
+    background: rgb(248, 248, 248);
+    margin: 7% auto;
+    padding: 0.3rem;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+ .login-box {
+    width: 220px;
+    margin: 2.2rem auto;
+    position: relative;
+    border-radius: 1.8rem;
+    font-size: 1rem;
+    
+    box-shadow: 0 0 1.25rem 0.3rem #0808081f;
+} 
+
+ .toggle-login {
+   
+    text-align: center;
+    padding: 0.3rem 5rem;
+   
+    border: 0;
+    outline: none;
+} 
+.toggle-reg{
+       
+    text-align: center;
+    padding: 0.3rem 2.6rem;
+   
+    border: 0;
+    outline: none;
+}
+
+
+
+.input-group {
+    position: absolute;
+    top: 170px;
+    width: 280px;
+ 
+}
+
+
+.input-field {
+    width: 100%;
+    margin: 0.3rem 0;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.check-box {
+    margin: 1.8rem 0.5rem;
+}
+
+.submit-btn {
+    width: 85%;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0.6rem 1.8rem;
+    display: block;
+    background-image: linear-gradient(to right, #392d69, #b57bee);
+    border-radius: 1.8rem;
+    border: 0;
+    outline: none;
+}
+
+.input-group span {
+    color: #999;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 67px;
+}
+
+.box-submit{
+    margin-top: 30px;
+}
+
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}  

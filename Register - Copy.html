@@ -1,0 +1,57 @@
+<?php
+if(isset($_POST['reg_btn'])){
+  echo 'ok';
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha512-Ua/7Woz9L5O0cwB/aYexmgoaD7lw3dWe9FvXejVdgqu71gRog3oJgjSWQR55fwWx+WKuk8cl7UwA1RS6QCadFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/js/all.js">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="bootstrap-rtl.css">
+    <link rel="stylesheet" href="bootstrap-rtl.min.css">
+</head>
+<body class="rtl">
+ 
+  <div class="main-box">
+    <div class="form-box">
+        <div class="login-box">
+<!--     
+            <button type="button" class="toggle-btn" >ثبت نام</button> -->
+           <h2 class="toggle-reg"> ثبت نام </h2>
+        </div>
+<form >
+  
+
+      <form action="submit.php" id="register" class="input-group" method="post">
+            <input type="text" class="input-field" placeholder="نام کاربری" name="username" required>
+            <input type="email" class="input-field" placeholder="ایمیل" name="email" required>
+            <input type="password" class="input-field" placeholder="رمز عبور" name="pswd" required>
+            <input type="checkbox" class="check-box" name="rolesite">
+            <span>
+                قوانین و مقررات سایت را می پذیرم
+            </span>
+            <button type="submit" class="submit-btn" name="reg_btn">ثبت نام</button> 
+
+        </form>
+        <div class="box-submit text-center">
+            <a href="login.html">حساب کاربری دارید؟</a>
+ 
+         </div>
+    </form> 
+    </div>
+</div>
+  <script src="login.js"></script>
+</body>
+</html>
